@@ -30,7 +30,7 @@ python -m pip install docx2txt
 python -m pip install chromadb
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/_bf_conversational_chat/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_python_query_chroma_app_streamlit/
 
 # LAUNCH the file
 python 002_python_query_chroma_inserting_conten_query.py

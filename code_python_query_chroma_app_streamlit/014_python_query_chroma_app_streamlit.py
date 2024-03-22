@@ -26,7 +26,7 @@ python -m pip install python-dotenv
 python -m pip install langchain-openai
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/ollama_pdfchat_streamlit
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_leonvanzyl_langchain_python_tutorialollama_pdfchat_streamlit
 
 # LAUNCH the file
 streamlit run 014_python_query_chroma_app_streamlit.py

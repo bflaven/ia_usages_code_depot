@@ -30,7 +30,7 @@ python -m pip install docx2txt
 python -m pip install chromadb
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/_bf_conversational_chat/rag_chatbot_with_streamlit/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_rag_chatbot_with_streamlit
 
 # LAUNCH the file
 streamlit run 008_rag_chatbot_with_streamlit.py

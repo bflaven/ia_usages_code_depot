@@ -39,7 +39,7 @@ python -m pip uninstall textract
 
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/_bf_conversational_chat/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_python_query_chroma_app_streamlit/
 
 # LAUNCH the file
 streamlit run 007_python_query_chroma_app_streamlit.py

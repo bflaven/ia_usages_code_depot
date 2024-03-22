@@ -27,7 +27,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 # [path]
-cd /Users/brunoflaven/Documents/02_copy/fmm_USECASES/journalist_workflow/grammar_correction/
+cd /Users/brunoflaven/Documents/03_git/USECASES/journalist_workflow/grammar_correction/
 
 # LAUNCH the file
 python 003_grammar_correction_language_tool_python.py

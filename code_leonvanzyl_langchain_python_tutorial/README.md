@@ -10,7 +10,7 @@
 
 ```bash
 # go to dir
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_leonvanzyl_langchain_python_tutorial
 # create dir
 mkdir flowiseai
 # go to the dir flowiseai
@@ -38,7 +38,7 @@ http://localhost:3000/
 
 ```bash
 # go to the dir flowiseai
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/flowiseai/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_leonvanzyl_langchain_python_tutorialflowiseai/
 
 # start flowise
 npx flowise start

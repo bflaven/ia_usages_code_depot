@@ -27,7 +27,7 @@ python -m pip install langchain-openai
 python -m pip install BeautifulSoup4
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_leonvanzyl_langchain_python_tutorial
 
 # LAUNCH the file
 python 019_langchain_llm_mistral.py

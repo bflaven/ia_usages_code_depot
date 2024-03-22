@@ -29,7 +29,7 @@ python -m pip install streamlit_chat
 
 
 # [path]
-cd /Users/brunoflaven/Documents/01_work/blog_articles/ia_using_flowiseai/_bf_conversational_chat/nilsjennissen_law_search_llm_main/
+cd /Users/brunoflaven/Documents/03_git/ia_usages_code_depot/code_search_llm_main
 
 # LAUNCH the file
 streamlit run 001_main.py
