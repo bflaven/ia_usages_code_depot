@@ -1,6 +1,13 @@
 # ia_usages_code_depot
 
-An archive directory of all the code used for the different POCS on AI
+
+I have restructured the repository. My concern is to keep track of the food for thought  
+
+**Bonanzas are prompts not code anymore!**
+
+
+My wish is to keep a prompt's corpus which provides "food for thought" and I need to have access. According to me, Prompts are now more valuable than code! Even though code or prompt can potentially expose sensitive information or constitute an infraction against some clients or some employers!  That is the price to pay.
+
 
 **GIT COMMANDS REMINDER**
 
@@ -43,6 +50,10 @@ git commit -am "add some code in code_leonvanzyl_langchain_python_tutorial and c
 
 git commit -am "move some code to ia_usages_code_depot"
 git commit -am "change path"
+
+git commit -am "update directory"
+
+
 
 # push to github if your branch on github is master
 # git push origin master
