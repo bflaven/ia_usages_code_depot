@@ -5,9 +5,11 @@ As an advanced programmer in Python using langchain, the following code "--- cod
 
 
 --- error
+```bash
 TypeError: __init__() takes 1 positional argument but 2 were given
-
+```
 --- code
+```python
 def call_string_output_parser():     
         llm_model = "mistral:latest"
         llm = Ollama(model=llm_model)
@@ -21,7 +23,7 @@ def call_string_output_parser():
 
 
 print(call_string_output_parser())
-
+```
 
 ## output
 The error you're encountering suggests that there's an issue with the initialization of the `StrOutputParser` class. The error message indicates that you're trying to pass an argument to `StrOutputParser.__init__()`, but it only takes one positional argument.

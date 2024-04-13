@@ -5,9 +5,11 @@ As an advanced programmer in Python using langchain, the following code "--- cod
 
 
 --- error
+```bash
 ValueError: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
-
+```
 --- code
+```python
 # V3
 # model name
 llm_model="mistral:latest"
@@ -17,7 +19,7 @@ prompt = ChatPromptTemplate.from_template("Tell me a joke about {subject}")
 # create a LLM chain
 chain = prompt | llm 
 response = llm.invoke({"subject": "scientist"})
-
+```
 
 ## output
 

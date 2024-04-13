@@ -4,7 +4,7 @@
 As an advanced programmer in Python using Langchain, Chroma and Streamlit, can you rewrite the Python code below and fix it so the user can chat with a Chroma DB named "chroma_db_conversational_chat"
 
 
-
+```python
 #%% ---------------------------------------------  IMPORTS  ----------------------------------------------------------#
 # Import for reading file
 import pathlib
@@ -127,11 +127,12 @@ if prompt := st.chat_input("What is up?"):
     with st.chat_message("assistant"):
         message = st.write_stream(chat_res_generator())
         st.session_state["messages"].append({"role": "assistant", "content": prompt})
-
+```
 
 
 ## output_chatgpt
 
+```python
 # Importing necessary libraries
 import streamlit as st
 from langchain_community.vectorstores import Chroma
@@ -193,7 +194,7 @@ if st.button("Send"):
 if st.button("Reset Chat"):
     st.session_state["messages"] = []
     st.session_state["prompt"] = ""
-
+```
 
 ## output_mistral
 

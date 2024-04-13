@@ -4,7 +4,7 @@
 As an advanced programmer in Python using Langchain and Chroma, can you rewrite the python script and make it fully work...
 
 
-
+```python
 #%% ---------------------------------------------  IMPORTS  ----------------------------------------------------------#
 import time
 import datetime
@@ -193,7 +193,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 
 
 ## output_mistral

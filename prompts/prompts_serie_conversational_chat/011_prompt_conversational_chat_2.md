@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain, Chroma and Streamlit, can you rewrite the Python code below, with the best practices (Class, code commented, Functions... etc.) to enable the user to upload different files e.g .pdf, .txt, .docx
 
+```python
 st.title("Chroma Chat App")
 
 # Upload a PDF file
@@ -77,6 +78,7 @@ if uploaded_file is not None:
 
 else:
     st.write("Please upload a file.")
+```
 
 ## output_chatgpt
 

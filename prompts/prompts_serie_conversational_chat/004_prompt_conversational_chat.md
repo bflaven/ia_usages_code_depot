@@ -4,7 +4,7 @@
 As an advanced programmer in Python using Langchain and Chroma, can you extend this python script to enable the ingest of .pdf files and manage the case where the "user_input" is empty because the user has not idea on what to query and also as document to send in PATH_TO_SOURCE.
 Leverage on the previous code in terms of coding.
 
-
+```python
 user_input = input("Enter your question: ")
 if not user_input:
     print("Please enter a valid question.")
@@ -76,6 +76,7 @@ print('\n')
 
 # "Mal nommer les choses, c'est ajouter au malheur du monde !" Albert Camus
 
+```
 
 
 ## output

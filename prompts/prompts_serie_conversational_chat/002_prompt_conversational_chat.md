@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain and Chroma, can you fix this python script that extract the text from a text file named "sample_transcript.txt" then it will use the "text_splitter" to load into a Chroma database named "chroma_db_conversational_chat"
 
+```python
 # Text treatment
 user_input= "That will be question made by the user"
 
@@ -67,7 +68,7 @@ result = answer["result"]
 
 print('\n –-- RESULT')
 print(result)
-
+```
 
 ## output
 

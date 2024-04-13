@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain, Chroma and Streamlit, can you rewrite the Python code below, with the best practices (Class, code commented, Functions... etc.) to enable the user to type a field in "user_input_source" and a field in "user_input_prompt" then send back the variable "result" in a chat.
 
+```python
 user_input_source = "_data/source_african_football_3.txt"
 user_input_prompt= "Who is Houssem Habbassi?"
 
@@ -164,6 +165,8 @@ def insert_db (text):
 # ------------------- INSERT ----------------- #
 # file_uploader(user_input_source)
 # insert_db (user_input_source)
+```
+
 
 ## output_chatgpt
 

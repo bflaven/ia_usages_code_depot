@@ -10,6 +10,7 @@ Can you fix this python code below "---code" so the result is not empty
 Just an example of csv file in "---example"
 
 "---example"
+```bash
 Teams,Name
 Milwaukee Bucks,Giannis Antetokounmpo
 Dallas Mavericks,Luka Doncic
@@ -20,9 +21,10 @@ Brooklyn Nets,Kevin Durant
 Golden State Warriors,Stephen Curry
 Memphis Grizzlies,Ja Morant
 Boston Celtics,Jayson Tatum
+```
 
 "---code"
-
+```python
 elif file_extension == "csv":
         try:
             # use tempfile because CSVLoader only accepts a file_path
@@ -39,6 +41,7 @@ elif file_extension == "csv":
                 print("text:", text)  # Print the contents of text
         except Exception as e:
             print(f"Error reading {file_extension.upper()} file:", e)
+```
 
 
 

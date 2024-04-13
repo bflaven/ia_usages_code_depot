@@ -1,10 +1,13 @@
 # 004_prompt_conversational_chat.md
 
 ## prompt
+
+Tell me more on this error: 
+```bash
 /opt/homebrew/lib/python3.11/site-packages/streamlit/util.py:227: RuntimeWarning: coroutine 'expire_cache' was never awaited
   pass
 
-
+```
 
 ## output_mistral
 

@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain, Chroma and Streamlit, in the this function replace the "user_input_source" variable by "user_input_source = st.file_uploader("Upload a document", type=["txt", "pdf", "docx", "html", "css", "py", "csv"])"  and make it work.user_input_sourceRewirte the all script.
 
+```python
 def run(self):
         st.title("Chroma Chat App")
         # self.user_input_source = st.text_input("Enter the source file path:")
@@ -17,7 +18,7 @@ def run(self):
                 self.insert_db(text)
                 st.write("Result:")
                 st.write(self.result)
-
+```
 
 ## output_chatgpt
 Below is the updated script with the changes you requested:

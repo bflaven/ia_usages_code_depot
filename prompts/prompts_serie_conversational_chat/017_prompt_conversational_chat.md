@@ -3,7 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain and Chroma, can you rewrite the python script below and corrcet this issue "'ConversationalChatApp' object has no attribute 'vectorstore'"
 
-
+```python
 
 #%% ---------------------------------------------  IMPORTS  ----------------------------------------------------------#
 import time
@@ -185,7 +185,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 
 ## output_mistral
 

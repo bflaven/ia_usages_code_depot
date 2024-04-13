@@ -7,7 +7,7 @@ As an advanced programmer in Python using Langchain, Chroma and Streamlit, can y
         stream=True,
     )
 
-
+```python
 # Importing necessary libraries
 import ollama
 import streamlit as st
@@ -96,7 +96,7 @@ if prompt := st.chat_input("What is up?"):
     with st.chat_message("assistant"):
         message = st.write_stream(chat_res_generator())
         st.session_state["messages"].append({"role": "assistant", "content": message})
-
+```
 
 
 

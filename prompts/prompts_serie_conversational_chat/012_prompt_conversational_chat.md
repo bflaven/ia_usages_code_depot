@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python using Langchain, Chroma and Streamlit, can you rewrite the Python code below, with the best practices (Class, code commented, Functions... etc.) to enable the user to upload different files e.g .pdf, .txt, .docx
 
+```python
 if not os.path.exists('files'):
     os.mkdir('files')
 
@@ -157,6 +158,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
 ## output_chatgpt
 

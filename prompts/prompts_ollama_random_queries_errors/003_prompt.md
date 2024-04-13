@@ -4,7 +4,7 @@
 As an advanced programmer in Python using langchain, convert the result of the following code "--- code" as a python list
 
 --- code
-
+```python
 def call_string_output_parser():     
     llm_model = "mistral:latest"
     llm = Ollama(model=llm_model)
@@ -22,7 +22,7 @@ print(call_string_output_parser())
 
 ze_type = type(call_string_output_parser())
 print(ze_type)
-
+```
 
 ## output
 To convert the result of the `call_string_output_parser()` function into a Python list, you can wrap the result in a list constructor. However, since I see that the result of your function might not be directly iterable, we need to encapsulate the result into a list. Here's how you can achieve this:

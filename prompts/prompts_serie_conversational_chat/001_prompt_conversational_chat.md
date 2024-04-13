@@ -5,6 +5,7 @@ As an advanced programmer in Python using Langchain and Chroma, can you write a 
 
 You can use the code below and please write the full script from import to the treament.
 
+```python
 # LangChain Imports
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import Chroma
@@ -42,7 +43,7 @@ prompt = PromptTemplate(input_variables=["context", "question"], template=templa
 qa_chain = RetrievalQA.from_chain_type(llm_open, chain_type="stuff", retriever=knowledge_base.as_retriever(), chain_type_kwargs={"prompt": build_prompt("template_1")})
 answer = qa_chain({"query": user_input})
 result = answer["result"]
-
+```
 
 ## output
 Sure, I can help you write a Python script that uses Langchain and Chroma to extract text from a file and load it into a Chroma database. Here's a script based on the code you provided:

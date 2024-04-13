@@ -5,6 +5,7 @@ As an advanced programmer in Python using Langchain and Chroma, can you write a 
 
 Leverage on the code below in terms of coding.
 
+```python
 user_input_source = "_data/empty_file.txt"
 user_input_prompt= "the prompt by the user"
 
@@ -64,6 +65,7 @@ answer = qa_chain({"query": user_input})
 result = answer["result"]
 
 print('\n')
+```
 
 ## output
 
