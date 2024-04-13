@@ -2,7 +2,7 @@
 
 ## prompt
 As an advanced programmer in Python, with Streamlit, create a function that receive a json in a variable named "payload" and print each element in Streamlit page. For more inforation, here an example of the variable and the json structure given as example.
-
+```json
 payload = response.json()
 
 {
@@ -15,7 +15,7 @@ payload = response.json()
     }
   ]
 }
-
+```
 
 
 ## output
