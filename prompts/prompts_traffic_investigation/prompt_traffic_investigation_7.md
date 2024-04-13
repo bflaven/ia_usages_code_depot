@@ -5,8 +5,9 @@ As an advanced programmer in Python, with Streamlit and other python librairies,
 
 Example of row, do not use the infos as example for the code.
 
-
+```csv
 "2024-01-08 17:08:25.000";"https://www.france24.com/fr/info-en-continu/20240108-🔴-remaniement-la-première-ministre-élisabeth-borne-démissionne";"France,Politique française,Emmanuel Macron,Élisabeth Borne,France,Gabriel Attal,FRANCE 24";"132181"
+```
 
 ## output_1
 

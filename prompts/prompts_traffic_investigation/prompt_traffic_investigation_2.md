@@ -4,12 +4,14 @@
 ## prompt
 Create a function that give general information on the number of records from a csv file with Pandas for a file named "sample_1_myexport_20240202112846.csv" with separated columns semi-column ";". Yoiu can leverage on the function below but create a new one named "load_data_infos"
 
+```python
 # @st.cache_data
 def load_data():
     data = pd.read_csv(DATA_URL, sep=';')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     return data
+```
 
 ## output
 

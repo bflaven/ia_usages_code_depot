@@ -6,7 +6,9 @@ As an advanced programmer in Python, with Streamlit, write some functions of Mac
 The CSV, is comma-separated with ";" file has the following columns : "Publication date";"URL";"Tags";"Visits".
 Here is one record example, try to investigate especially the columns "Tags" and "Visits".
 
+```csv
 "2024-01-08 17:08:25.000";"https://www.france24.com/fr/info-en-continu/20240108-🔴-remaniement-la-première-ministre-élisabeth-borne-démissionne";"France,Politique française,Emmanuel Macron,Élisabeth Borne,France,Gabriel Attal,FRANCE 24";132181
+```
 
 
 

@@ -3,8 +3,9 @@
 ## prompt_1
 As an advanced programmer in Python, with Streamlit and other python librairies, can you write a script with a model that offer the best predcition for effective Tags using a csv file with the following columns "Date de publication","URL","Tags","Visites". Note that all the values are separated with semi-columns ";" and the values in "Tags" are coma separated.
 
-
+```csv
 "2024-01-08 17:08:25.000";"https://www.france24.com/fr/info-en-continu/20240108-🔴-remaniement-la-première-ministre-élisabeth-borne-démissionne";"France,Politique française,Emmanuel Macron,Élisabeth Borne,France,Gabriel Attal,FRANCE 24";"132181"
+```
 
 ## output_1
 
