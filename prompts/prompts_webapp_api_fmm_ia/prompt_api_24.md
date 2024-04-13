@@ -5,7 +5,7 @@ As an advanced programmer in Python, with FastAPI, create an endpoint named "/se
 
 
 
-
+```python
 import warnings
 import os 
 import json
@@ -56,7 +56,7 @@ chain_one = LLMChain(llm=llm, prompt=first_prompt)
 overall_simple_chain = SimpleSequentialChain(chains=[chain_one], verbose=False)
 
 result = overall_simple_chain.invoke(content)
-
+```
 
 
 ## output

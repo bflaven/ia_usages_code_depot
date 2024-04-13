@@ -3,11 +3,9 @@
 ## prompt
 As an advanced programmer in Python, with Streamlit, create a form where the user can post a text to the endpoint then when the job is done after clicking on a sending button, print out the values inside the variables: original_text, corrected_text, errors_detected, corrections, returned from the endpoint named "spelling".
 
+## output
 
-
-
-
-
+```python
 ## output
 import streamlit as st
 import requests
@@ -55,4 +53,4 @@ if st.button("Send"):
         process_text(user_text)
     else:
         st.warning("Please enter some text before sending.")
-
+```

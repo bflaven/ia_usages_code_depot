@@ -4,6 +4,7 @@
 
 As an advanced programmer in Python, with Streamlit, write a script that enable this upload of an .mp3 that will interact with the endpoint "/audio-express". When the upload is done and the .mp3 trancripted. The API will send a json named "response". In the streamlit page, select the player of your choice to load the json "response" so when the user want to play the mp3, it shows below the player all the words and enlight in red the word that is player. See below the code for the json "response"
 
+```json
 {
     "language": "en",
     "language_probability": 0.9958502054214478,
@@ -62,7 +63,7 @@ As an advanced programmer in Python, with Streamlit, write a script that enable 
         }
     ]
 }
-
+```
 
 
 ## output_prompt_1

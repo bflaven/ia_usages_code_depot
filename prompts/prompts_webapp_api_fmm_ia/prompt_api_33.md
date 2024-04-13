@@ -3,9 +3,9 @@
 ## prompt
 As an advanced programmer in Python create a function that receive from an endpoint named "ollama-generate" a json like the one below illustrated in "response" then parse and fetch the values "Title" and "Keywords" for each proposal from the "response"
 
-
+```json
 "response": " \"proposal_1\": {\"Title\": \"China Urges Israel to Halt Military Operation in Gaza's Rafah, Calls for Immediate Ceasefire\", \"Keywords\": [\"Israel\", \"Gaza\", \"Rafah\", \"military operation\", \"ceasefire\", \"China\"]},\n\"proposal_2\": {\"Title\": \"Calls for Immediate Ceasefire in Gaza as China Condemns Israel's Military Operation\", \"Keywords\": [\"Gaza\", \"Israel\", \"military operation\", \"ceasefire\", \"China\", \"humanitarian crisis\"]},\n\"proposal_3\": {\"Title\": \"King Abdallah II Advocates for Immediate Ceasefire in Gaza at White House Meeting with Biden\", \"Keywords\": [\"Gaza\", \"Israel\", \"ceasefire\", \"Joe Biden\", \"King Abdallah II\", \"otages\"]}",
-
+```
 
 ## output
 

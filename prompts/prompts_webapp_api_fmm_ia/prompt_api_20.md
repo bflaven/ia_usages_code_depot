@@ -3,7 +3,7 @@
 ## prompt
 As an advanced programmer in Python, with FastAPI, add a json example named "summary_bart_summary_model.json" inside the section "Example Value" for the code below :
 
-
+```python
 ######################### MODEL_1 #################################
 class TextSource(BaseModel):
     source: str
@@ -41,7 +41,7 @@ async def summary_bart_summary(input: TextSource):
     except Exception as e:
         # In case of any error, raise HTTPException
         raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
-
+```
 
 ## output
 To add a JSON example named "summary_bart_summary_model.json" inside the "Example Value" section for the provided FastAPI endpoint, you can define the structure of the JSON data that the endpoint expects. Here's how you can do it:

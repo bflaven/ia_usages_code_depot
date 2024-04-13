@@ -4,7 +4,7 @@
 ## prompt_1
 
 As an advanced programmer in Python, with Streamlit, write a script that make enable the upload of a json file. The structure of the JSON file is describe below. If the user submit the button "Download" it launches a function that turn the json file into a text file named "file_transcription_whisper.txt" with not time code at all but with only the text.
-
+```json
 {
     "language": "fr",
     "language_probability": 0.9943994879722595,
@@ -32,7 +32,7 @@ As an advanced programmer in Python, with Streamlit, write a script that make en
         }
     ]
 }
-
+```
 
 # output
 

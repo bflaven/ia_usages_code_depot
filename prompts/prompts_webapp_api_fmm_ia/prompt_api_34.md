@@ -8,6 +8,7 @@ As an advanced programmer in Python, with FastAPI, for the code below, simplify 
 - Make a single endpoint from this code
 - Externalise the values SEO_ENGLISH_SYSTEM_PROMPT, SEO_FRENCH_SYSTEM_PROMPT, SMO_ENGLISH_SYSTEM_PROMPT and make a variable that should call by a single function.
 
+```python
 #########################  Endpoints for Social (packaging) #################################
 
 class OllamaRequest(BaseModel):
@@ -117,7 +118,7 @@ async def smo_english_generate(request: OllamaRequest):
         return response.json()
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
+```
 
 
 ## output_1

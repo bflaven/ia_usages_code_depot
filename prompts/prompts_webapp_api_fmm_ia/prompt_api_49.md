@@ -1,9 +1,9 @@
 # prompt_api_49.md
 
 ## prompt_1
-Fix the code below so the transacription play with the video when the user click on the paly button.
+Fix the code below so the transcription play with the video when the user click on the play button.
 
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,7 +109,7 @@ python -m http.server 4000
     </script>
 </body>
 </html>
-
+```
 
 
 # output

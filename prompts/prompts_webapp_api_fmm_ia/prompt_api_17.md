@@ -3,7 +3,7 @@
 ## prompt
 As an advanced programmer in Python, with FastAPI, make a detailed command and place it in replacement of the "Comment comes here" 
 
-
+```
 @app.post("/summarize", tags=['summarize'])
 async def get_summary(input: TextSource):
 
@@ -19,11 +19,12 @@ async def get_summary(input: TextSource):
     min_length_value = input.min_length
     result = summarizer(document, max_length=max_length_value, min_length=min_length_value, do_sample=False)
     return {"summary": result}
-
+```
 
 
 ## output
 
+```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from transformers import pipeline
@@ -119,4 +120,4 @@ async def get_summary_bis(input: BartTextSource):
     except Exception as e:
         # In case of any error, raise HTTPException
         raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
-
+```

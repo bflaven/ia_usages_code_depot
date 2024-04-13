@@ -3,19 +3,19 @@
 ## prompt
 As an advanced programmer in Python, with FastAPI and Ollama, can you write the code to integrate the Ollama call below into an endpoint named "ollama-generate" :
 
-
+```bash
 curl http://localhost:11434/api/generate -d '{
   "model": "mistral:latest",
   "prompt": "Where is the city Paris?",
   "stream": false
 }'
-
+```
 
 
 
 ## output
 
-
+```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from ollama import Ollama, LLMChain, ChatPromptTemplate, SimpleSequentialChain
@@ -42,3 +42,4 @@ async def generate_titles(request: ContentRequest):
         return {"titles": result}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+```

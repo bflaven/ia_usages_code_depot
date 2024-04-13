@@ -7,6 +7,7 @@ As an advanced programmer in Pyhton, with Streamlit, the API return a Misral JSO
 
 Here is an example of Misral JSON result with some error in  the field "response" 
 
+```json
 
 {
   "model": "mistral:latest",
@@ -802,7 +803,7 @@ Here is an example of Misral JSON result with some error in  the field "response
   "eval_count": 282,
   "eval_duration": 16082507000
 }
-
+```
 
 
 

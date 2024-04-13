@@ -34,7 +34,7 @@ ux.py # A streamlit app that is connected to the API and query it
 ## output_prompt_1
 Based on your description, here's a recommended directory structure for your FastAPI project named "MaMaMIA":
 
-```
+```bash
 MaMaMIA/
 │
 ├── api/
@@ -100,7 +100,7 @@ Add some test to the directory tree
 ## output_prompt_1
 Certainly! Let's add a directory for tests in your project structure:
 
-```
+```bash
 MaMaMIA/
 │
 ├── api/

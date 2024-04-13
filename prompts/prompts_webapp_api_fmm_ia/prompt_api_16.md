@@ -19,6 +19,8 @@ payload = response.json()
 
 
 ## output
+
+```python
 import streamlit as st
 
 def display_payload(payload):
@@ -45,3 +47,4 @@ payload = {
 # Display the payload using Streamlit
 st.title("JSON Payload Display")
 display_payload(payload)
+```

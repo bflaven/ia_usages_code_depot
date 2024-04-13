@@ -5,11 +5,15 @@ As an advanced programmer in Python, with FastAPI, write a endpoint named "spell
 
 The code has text given in french as example but it has to be tranformed as a variable for the function. Here the code below:
 
+```python
 tool = language_tool_python.LanguageTool('fr-FR')
 
+# correct text
 # La vision intangible, universelle, des droits de l’homme que portait le garde des sceaux de François Mitterrand a imprégné jusqu’au bout ses écrits et prises de position. Robert Badiner est mort, dans la nuit du 8 au 9 février, à l’age de 95 ans.
 
+# intentional error text
 text = 'La vission intangible , universelle, des droits de l’homme que portait le garde des sceaux de Frannçois Mitterrand a imprégné jusqu’au bout ses écrits et prises de position. Robert Badinter ait mort, dans la nnuit du 8 au 9 février, à l’age de 95 ans.'
+
 
 matches = tool.check(text)
 result = len(matches)
@@ -40,7 +44,7 @@ corrected_text = tool.correct(text)
 print('\n--- corrected_text')
 print(corrected_text)
 tool.close()
-
+```
 
 
 ## output

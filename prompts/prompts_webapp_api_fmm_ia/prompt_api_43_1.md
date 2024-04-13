@@ -4,8 +4,10 @@
 
 As an advanced programmer in Python, with Streamlit, extend the script with a function that load "diff_html" and count the number of tag "ins" then grab the value between the tag "del" and rab the value between the tag "ins" and put in a cvs file with panda.
 
+```html
 <del style="background: rgb(255, 230, 230);">e monde</del>
 <ins style="background: rgb(230, 255, 230);">'univers</ins>
+```
 
 ## output_1
 import streamlit as st

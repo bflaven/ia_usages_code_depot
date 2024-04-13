@@ -4,7 +4,7 @@
 ## prompt_1
 
 As an advanced programmer in Prompt for Mistral (mistral-7b), does this prompt is ok in order to return a good summary in French and not in English:
-
+```python
 french_summarize_prompt = """
     [INST] You are a helpful summarizer assistant in French. Your task is to generate a valid summary object in French based on the given information in French. content: {content}.
     \n
@@ -17,7 +17,7 @@ french_summarize_prompt = """
     \n
     \n[/INST]
 """
-
+```
 
 # output
 

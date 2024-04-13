@@ -16,7 +16,7 @@ The value for the "videoDescription" will be stored in variable that you should 
 
 e.g <p id="videoDescription">The text to manipulate</p>
 
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -133,7 +133,7 @@ http://localhost:4000/
 </script>
 </body>
 </html>
-
+```
 
 # output_1
 

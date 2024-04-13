@@ -7,7 +7,7 @@ In SYSTEM_PROMPT, the "{content}" is also a value that is send via the API to Ol
 
 
 
-
+```python
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -36,7 +36,7 @@ async def ollama_generate(request: OllamaRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-
+```
 
 
 ## output

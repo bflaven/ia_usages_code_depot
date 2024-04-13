@@ -3,7 +3,7 @@
 ## prompt
 Create an end-point named "/seo/titles" where a variable "text_for_title" is sent to an LMM defined in llm_model and with SYSTEM_PROMPT where {content} is replaced by the value sent in the variable "text_for_title". For the readability of the code,   externalize the LMM stuff inside a file external name "llm_mistral.py" then wait for the result of the prompt and send it back to a fastAPI end-point as a dictionary.
 
-
+```python
 # For LLM
 import langchain
 from langchain_community.llms import Ollama
@@ -49,7 +49,7 @@ overall_simple_chain = SimpleSequentialChain(chains=[chain_one], verbose=False)
 
 result = overall_simple_chain.invoke(content)
 
-
+```
 
 ## output
 

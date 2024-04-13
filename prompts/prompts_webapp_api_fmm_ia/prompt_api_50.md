@@ -10,7 +10,7 @@ Second, a function that export the content of the JSON file to SRT format file.
 
 Third, a function that do the reverse create a the JSON file from the SRT but with the exact same JSON format from the first function
 
-
+```json
 {
     "language": "en",
     "language_probability": 0.9958502054214478,
@@ -69,6 +69,7 @@ Third, a function that do the reverse create a the JSON file from the SRT but wi
         }
     ]
 }
+```
 
 # output
 

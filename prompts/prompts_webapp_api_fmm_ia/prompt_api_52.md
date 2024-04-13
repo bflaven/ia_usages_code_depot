@@ -11,7 +11,7 @@ The value for the .json will be stored in variable that you should give accordin
 
 e.g "../vroux_files/comparaison_transcript/Chronique_de_JA_Bell_du_jeudi_8_fevrier_transcription_whisper_express_srt.json"
 
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,7 +113,7 @@ python -m http.server 4000
     </script>
 </body>
 </html>
-
+```
 
 # output
 

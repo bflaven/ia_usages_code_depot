@@ -4,6 +4,7 @@
 
 As an advanced programmer in Python, with FastAPI, give me explanations and code to illustrate how to manage this kind of architecture. Provide examples with coding for all files named in the directory tree below: 
 
+```bash
 MaMaMIA/
 │
 ├── api/
@@ -14,7 +15,7 @@ MaMaMIA/
 │       └── v1/        # Version 1 of your API
 │           ├── __init__.py
 │           └── endpoints.py  # define your API endpoints here
-
+```
 
 ## output_prompt_1
 Certainly! Let's start by explaining each file and then provide examples with coding for them.

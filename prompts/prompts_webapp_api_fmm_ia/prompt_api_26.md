@@ -2,7 +2,7 @@
 
 ## prompt
 As an advanced programmer in Python, with Streamlit, enable a form that will let the user post a text into a function in FastAPI named "summary_bart_summary(input: TextSource):" that is available in the endpoint named "/summary/bart". The result produce a summary into a json object like the one below show the result in the page of Streamlit.
-
+```json
 {
   "summary": [
     {
@@ -10,6 +10,7 @@ As an advanced programmer in Python, with Streamlit, enable a form that will let
     }
   ]
 }
+```
 
 As an advanced programmer in Python, with Streamlit, create a function that count the strings number for the content posted by the user to kown the size of the text. Do the same thing for the summary.
 

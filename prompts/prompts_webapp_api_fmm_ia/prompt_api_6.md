@@ -4,12 +4,9 @@
 As an advanced programmer in Python, with Streamlit, print out the values inside the variables: original_text, corrected_text, errors_detected, corrections, returned from the endpoint named "spelling".
 
 
-
-
-
-
 ## output
 
+```python
 import streamlit as st
 import requests
 
@@ -39,3 +36,4 @@ if response.status_code == 200:
 
 else:
     st.error("Error fetching data from the spelling endpoint. Status code: {}".format(response.status_code))
+```

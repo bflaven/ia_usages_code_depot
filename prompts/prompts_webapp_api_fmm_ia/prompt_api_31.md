@@ -4,8 +4,9 @@
 As an advanced programmer in Python, with Streamlit, create a function that send a text in field named "content" to an endpoint named "ollama-generate". The endpoint response a json like the one below illustrated in "response".
 Then, in "response", grab the values "title" and "keywords" for each element "title_1", "title_2", "title_3" and then print in the streamlit page the values "title" and "keywords" for each title.
 
+```json
 "response": " title_1 = {\n \"title\": \"China Urges Israel to Halt Military Operation in Gaza, Avoid Civilian Casualties\",\n \"keywords\": [\"Israel\", \"Gaza\", \"military operation\", \"China\", \"civilian casualties\"]}\n\ntitle_2 = {\n \"title\": \"Calls for Immediate Ceasefire in Gaza: China and Jordan Pressure Israel, US Prefers Pause\",\n \"keywords\": [\"ceasefire\", \"Gaza\", \"Israel\", \"China\", \"Jordan\", \"US\"]}\n\ntitle_3 = {\n \"title\": \"Over One Million People in Rafah at Risk as China Demands Israel Stops Military Operation\",\n \"keywords\": [\"Rafah\", \"one million people\", \"military operation\", \"Israel\", \"China\", \"humanitarian crisis\"]}",
-
+```
 
 
 ## output

@@ -14,7 +14,7 @@ As an advanced programmer, in Streamlit, the scripot export a json at the woring
 
 
 Here the code
-
+```python
 import streamlit as st
 import json
 
@@ -60,6 +60,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+
 
 # output
 

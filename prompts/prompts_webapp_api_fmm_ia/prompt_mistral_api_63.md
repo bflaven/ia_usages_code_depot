@@ -7,7 +7,7 @@ As an advanced Prompt engineer and Python advanced programmerfor the 7B model re
 
 
 
-
+```python
 # SimpleSequentialChain
 llm_model="mistral:latest"
 
@@ -15,7 +15,7 @@ title = 'Filmmaker Polanski goes on trial in France on defamation charges'
 tags = 'France', 'Roman Polanski', 'trial', 'defamation', 'rape', 'sexual assault', 'French cinema', '#MeToo'
 
 SYSTEM_PROMPT = "You are a skilled content categorizer familiar with the Interactive Advertising Bureau (IAB) Content Taxonomy. Your task is to categorize the given post using the provided tags and title, ensuring to follow the IAB categorization guidelines. Here is the format for your response:\n Content:{'title': {title},\n'tags': [{tags}]\n}\n Output Format:\n{'iab_tier1_category': 'value for iab_tier1_category','iab_tier2_categories': ['value1 for iab_tier2_categories', 'value2 for iab_tier2_categories', 'value3 for iab_tier2_categories']}\nContent: {content}"
-
+```
 
 
 

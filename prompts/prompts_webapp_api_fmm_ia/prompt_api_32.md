@@ -3,12 +3,13 @@
 ## prompt
 How do you parse the "response" value to convert it as proper json object in order to isolate for each row Title1 and its Keywords,  Title2 and its Keywords and Title3 and its Keywords
 
+```json
 {
   "model": "mistral:latest",
   "created_at": "2024-02-13T10:38:48.660797Z",
   "response": " {\n\n Title1: \"China Urges Israel to Halt Military Operation in Gaza, Calls for Immediate Ceasefire\",\n Keywords: [\"China\", \"Israel\", \"Gaza\", \"military operation\", \"ceasefire\"]\n\n Title2: \"King Abdallah II Advocates for Immediate Ceasefire in Gaza at White House Meeting with Biden\",\n Keywords: [\"King Abdallah II\", \"White House\", \"Gaza\", \"ceasefire\", \"Joe Biden\"]\n\n Title3: \"Over One Million Civilians at Risk as China Condemns Israeli Military Operations in Rafah, Gaza\" ,\n Keywords: [\"China\", \"Israel\", \"Rafah\", \"Gaza\", \"civilians\", \"military operations\", \"humanitarian crisis\"]\n}",
 }
-
+```
 
 ## output
 

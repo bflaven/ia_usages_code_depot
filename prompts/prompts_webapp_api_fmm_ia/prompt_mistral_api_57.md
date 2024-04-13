@@ -5,6 +5,7 @@
 
 As an advanced programmer in Prompt for Mistral (mistral-7b), does this prompt is ok in order to return a good summary in English:
 
+```python
 english_seo_prompt = """
     You are a smart and intelligent journalist. Craft three compelling titles for an online post about the topic given in the content, ensuring to incorporate SEO best practices with the most common keywords from the content. For each proposal, print only the result in a Python dictionary object with title as a string and keywords as a list and include the all result into a Python list object like define below.
     \n
@@ -17,6 +18,7 @@ english_seo_prompt = """
     \n
     Content: {content}
 """
+```
 
 # output
 

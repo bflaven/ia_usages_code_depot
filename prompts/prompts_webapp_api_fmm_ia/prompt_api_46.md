@@ -3,7 +3,7 @@
 ## prompt_1
 As an advanced programmer, Enhance with CSS the code below, you can leverage on existing boilerplate style forma cdn
 
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,7 +90,7 @@ python -m http.server 4000
     </script>
 </body>
 </html>
-
+```
 
 # output
 To enhance the provided code with CSS, I'll integrate a couple of style tweaks and import them from an external CSS file using a CDN. Here's the enhanced version:

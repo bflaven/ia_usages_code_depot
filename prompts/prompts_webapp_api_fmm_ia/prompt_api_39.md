@@ -4,6 +4,7 @@
 
 As an advanced programmer in Python, with Streamlit, make it work the streamlit script. here is the code of the endpoint, see below "### faster_whisper". Apparently, it does not fetch the audio so the streamlit script is not enable to call the API. See what is missing and correct it.
 
+```python
 ### faster_whisper
 @app.post("/audio-express", tags=['audio_express'])
 async def process_audio(files: List[UploadFile] = File(...)):
@@ -42,7 +43,7 @@ async def process_audio(files: List[UploadFile] = File(...)):
         response["segments"].append(segment_info)
 
     return response
-
+```
 
 
 

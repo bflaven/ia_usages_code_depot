@@ -3,6 +3,7 @@
 ## prompt
 As an advanced programmer in Python, organise the data inside the best json format for the following content: 
 
+```bash
 (1) "title_1": "German Government Faces Budget Crisis: 60 Billion Euros in Credits Annuled by Constitutional Court"\n
 Keywords_1: German Government, Budget Crisis, Constitutional Court, 60 Billion Euros\n\n
 
@@ -12,7 +13,7 @@ Keywords_2: Scholz Administration, Non-Compliant Accounting Procedures, Extraord
 
 (3) "title_3": "Germany\'s Unexpected Turn: The Impact of the Courts Decision on Berlin\'s Strict Fiscal Rules and Upcoming Budget"\n
 Keywords_3: Germany, Court\'s Decision, Fiscal Rules, Budget. 
-
+```
 
 
 ## output

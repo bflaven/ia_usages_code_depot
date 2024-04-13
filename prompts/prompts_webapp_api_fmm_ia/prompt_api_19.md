@@ -6,7 +6,7 @@ As an advanced programmer in Python, with FastAPI, make a detailed command and p
 
 
 
-
+```python
 @app.post("/summary/ktrain_transformer_summarizer", tags=['ktrain_transformer_summarizer'])
 async def ktrain_transformer_summarizer(text: str):
     '''
@@ -16,7 +16,7 @@ async def ktrain_transformer_summarizer(text: str):
     ts = text.TransformerSummarizer()
     summary = ts.summarize(text, max_length=100)
     return {"summary": summary} 
-
+```
 
 ## output
 from fastapi import FastAPI, HTTPException
