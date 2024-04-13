@@ -2,7 +2,9 @@
 
 ## prompt
 As an advanced programmer in Python, with FastAPI, create an process_text function with this model where example_request is a json model in an external file
+```python
 async def process_text(body: RecordsRequest = Body(..., example=example_request)):
+```
 
 ## output
 

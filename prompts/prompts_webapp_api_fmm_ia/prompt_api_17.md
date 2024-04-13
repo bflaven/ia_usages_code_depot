@@ -3,7 +3,7 @@
 ## prompt
 As an advanced programmer in Python, with FastAPI, make a detailed command and place it in replacement of the "Comment comes here" 
 
-```
+```python
 @app.post("/summarize", tags=['summarize'])
 async def get_summary(input: TextSource):
 

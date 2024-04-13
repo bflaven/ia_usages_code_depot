@@ -3,11 +3,12 @@
 ## prompt
 As an advanced programmer in Python, with Streamlit, create a function to load data from python file named "lang_list.py" that contains a list like the one below. The selection can be made with a dropdown, it will help to select 2 variables for a translation feature : the source language is named "src_lang" and the target language is "tgt_lang"
 
+```python
 lang_list = [
     "ace_Arab",
     "ace_Latn"
 ]
-
+```
 
 ## output
 Certainly! Below is a simple Streamlit application with a dropdown menu that allows you to select source and target languages from the provided `lang_list`:

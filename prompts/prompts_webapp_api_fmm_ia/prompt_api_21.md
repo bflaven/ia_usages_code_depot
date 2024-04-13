@@ -9,11 +9,11 @@ I do not see the sample "Item.schema_extra" in the swagger documentation? How do
 
 
 How do you load a json example inside the field "Request body" when you click on the button "Try it out"
-
+```json
 {
   "text": "string"
 }
-
+```
 
 ## output
 

@@ -2,16 +2,16 @@
 
 ## prompt
 As an advanced programmer in Python, with FastAPI, create a endpoint where you load a json example inside the field "Request body" when you click on the button "Try it out" in the swagger documentation.
-
+```json
 {
   "text": "string"
 }
-
+```
 
 But I want the json call or available inside the code of the API loaded from an external file.
 
 
-is there a way to add the json file insthe json call or available inside the code of the API loaded from an external file.
+Is there a way to add the json file insthe json call or available inside the code of the API loaded from an external file.
 
 
 ## output

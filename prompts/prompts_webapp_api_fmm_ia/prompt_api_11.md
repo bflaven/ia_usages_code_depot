@@ -4,7 +4,7 @@
 As an advanced programmer in Python, with Streamlit, enable a form that will let the user post a text into a function in FastAPI named get_entities(input: Input) that is available in the endpoint named "entities". The result show the extractions entities into a json object like the one below show the result in the page of Streamlit. Can you leverage on displacy ?
 
 
-
+```json
 {
   "extractions": [
     {
@@ -39,6 +39,7 @@ As an advanced programmer in Python, with Streamlit, enable a form that will let
     }
   ]
 }
+```
 
 ## output
 
