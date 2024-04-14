@@ -45,14 +45,11 @@ git commit -am "add docker files"
 git commit -am "update readme"
 git commit -am "add some code in grammar_correction_language_tool_python"
 git commit -am "add some code in code_grammar_correction_language_tool_python"
-
 git commit -am "add some code in code_leonvanzyl_langchain_python_tutorial and code_grammar_correction_language_tool_python"
-
 git commit -am "move some code to ia_usages_code_depot"
 git commit -am "change path"
-
 git commit -am "update directory"
-
+git commit -am "update directory and add readme"
 
 
 # push to github if your branch on github is master
