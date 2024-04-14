@@ -1,9 +1,11 @@
 # ia_usages_code_depot
 
 
-I have restructured the repository. My concern is to keep track of the food for thought  
+I have restructured the repository. My concern is to keep track of the food for thought.
 
 **Bonanzas are prompts not code anymore!**
+
+**For more check https://github.com/bflaven/ia_usages**
 
 
 My wish is to keep a prompt's corpus which provides "food for thought" and I need to have access. According to me, Prompts are now more valuable than code! Even though code or prompt can potentially expose sensitive information or constitute an infraction against some clients or some employers!  That is the price to pay.
