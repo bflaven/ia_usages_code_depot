@@ -9,6 +9,7 @@ As an advanced programmer in Python, with Streamlit, extend the script with a fu
 <ins style="background: rgb(230, 255, 230);">'univers</ins>
 ```
 
+```python
 ## output_1
 import streamlit as st
 import pandas as pd
@@ -82,7 +83,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 
 # output
 
