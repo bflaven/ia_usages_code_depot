@@ -54,6 +54,8 @@ git commit -am "update directory"
 git commit -am "update directory and add readme"
 git commit -am "update readme with python code"
 git commit -am "update readme with python code for some readme"
+git commit -am "add prompts"
+git commit -am "update readme"
 
 # push to github if your branch on github is master
 # git push origin master
