@@ -56,6 +56,8 @@ git commit -am "update readme with python code"
 git commit -am "update readme with python code for some readme"
 git commit -am "add prompts"
 git commit -am "update readme"
+git commit -am "add files"
+
 
 # push to github if your branch on github is master
 # git push origin master
